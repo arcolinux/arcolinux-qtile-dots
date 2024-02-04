@@ -16,16 +16,8 @@ function run {
 
 #$HOME/.config/polybar/launch.sh &
 
-#change your keyboard if you need it
-#setxkbmap -layout be
-
-# keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
-
-# if [ $keybLayout = "be" ]; then
-#   run sxhkd -c ~/.config/qtil/sxhkd/sxhkdrc-azerty &
-# else
-# run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
-# fi
+##changed via give-me-azerty-qtile
+#setxkbmap be
 
 #Some ways to set your wallpaper besides variety or nitrogen
 feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
